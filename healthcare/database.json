@@ -1,0 +1,306 @@
+{
+  "infor": [
+    {
+      "id": "075b",
+      "email": "user1@gmail.com",
+      "password": "123456yy",
+      "role": "user",
+      "fullName": "User 1",
+      "dateOfBirth": "2024-03-22",
+      "phone": "0123456789",
+      "address": "Ha noi",
+      "specify": ""
+    },
+    {
+      "id": "9e63",
+      "email": "user2@gmail.com",
+      "password": "123456yy",
+      "role": "user",
+      "fullName": "User 2",
+      "dateOfBirth": "2222-02-22",
+      "phone": "0123456789",
+      "address": "Ha noi",
+      "specify": ""
+    },
+    {
+      "id": "ce4d",
+      "email": "doctor1@gmail.com",
+      "password": "123456yy",
+      "role": "doctor",
+      "fullName": "Doctor 1",
+      "dateOfBirth": "2024-03-09",
+      "phone": "0123456789",
+      "address": "Ha noi",
+      "specify": "Reproduction"
+    },
+    {
+      "id": "4111",
+      "email": "doctor2@gmail.com",
+      "password": "123456yy",
+      "role": "doctor",
+      "fullName": "Doctor 2",
+      "dateOfBirth": "2024-03-22",
+      "phone": "0123456789",
+      "address": "Ha noi",
+      "specify": "Heart"
+    }
+  ],
+  "doctorCode": [
+    {
+      "id": "7",
+      "code": "1235"
+    },
+    {
+      "id": "8",
+      "code": "1236"
+    },
+    {
+      "id": "9",
+      "code": "1237"
+    }
+  ],
+  "adminCode": [
+    {
+      "id": "4",
+      "code": "DGB123"
+    },
+    {
+      "id": "5",
+      "code": "123"
+    },
+    {
+      "id": "6",
+      "code": "1234"
+    },
+    {
+      "id": "7",
+      "code": "1235"
+    }
+  ],
+  "pathological": [
+    {
+      "id": "1",
+      "name": "Eyes",
+      "src": "https://tamanhhospital.vn/wp-content/uploads/2024/02/trung-tam-mat-cong-nghe-cao.png"
+    },
+    {
+      "id": "2",
+      "name": "Dentomaxillofacial",
+      "src": "https://tamanhhospital.vn/wp-content/uploads/2023/12/khoa-rang-ham-mat.png"
+    },
+    {
+      "id": "3",
+      "name": "Reproduction",
+      "src": "https://tamanhhospital.vn/wp-content/uploads/2020/12/khoa_ivf.png"
+    },
+    {
+      "id": "4",
+      "name": "Breast surgery department",
+      "src": "https://tamanhhospital.vn/wp-content/uploads/2022/12/icon-khoa-ngoai-vu-2023.png"
+    },
+    {
+      "id": "5",
+      "name": "Endoscopy and endoscopic digestive surgery",
+      "src": "https://tamanhhospital.vn/wp-content/uploads/2020/11/icon-tieuhoa.png"
+    },
+    {
+      "id": "6",
+      "name": "Department of gastroenterology - liver - gallbladder - pancreas",
+      "src": "https://tamanhhospital.vn/wp-content/uploads/2022/02/logo-tieu-hoa-gan-mat-f.png"
+    },
+    {
+      "id": "7",
+      "name": "Heart",
+      "src": "https://tamanhhospital.vn/wp-content/uploads/2020/12/khoa_noitimmach.png"
+    },
+    {
+      "id": "8",
+      "name": "Neuroscience",
+      "src": "https://tamanhhospital.vn/wp-content/uploads/2020/12/khoa_noithankinh.png"
+    },
+    {
+      "id": "9",
+      "name": "Department of endocrinology - diabetes",
+      "src": "https://tamanhhospital.vn/wp-content/uploads/2020/12/khoa_noitiet.png"
+    },
+    {
+      "id": "10",
+      "name": "Musculoskeletal Department",
+      "src": "https://tamanhhospital.vn/wp-content/uploads/2021/03/khoa-noi-co-xuong-khop.png"
+    },
+    {
+      "id": "11",
+      "name": "Ear, nose and throat",
+      "src": "https://tamanhhospital.vn/wp-content/uploads/2021/03/khoa-tai-mui-hong.png"
+    },
+    {
+      "id": "12",
+      "name": "Orthopedic",
+      "src": "https://tamanhhospital.vn/wp-content/uploads/2020/12/khoa_cthuong_chinhhinh.png"
+    }
+  ],
+  "booking": [
+    {
+      "id": "2317",
+      "doctorId": "ce4d",
+      "patientId": "075b",
+      "time": "22:58",
+      "date": "2024-03-09",
+      "symptoms": "testtt 1",
+      "healthProblem": "Reproduction",
+      "status": false,
+      "currentDate": "2024-03-19",
+      "doctorFullName": "Doctor 1",
+      "patientFullName": "User 1",
+      "isRated": true
+    },
+    {
+      "id": "0915",
+      "doctorId": "4111",
+      "patientId": "075b",
+      "time": "22:59",
+      "date": "2024-03-22",
+      "symptoms": "551",
+      "healthProblem": "Orthopedic",
+      "status": false,
+      "currentDate": "2024-03-19",
+      "doctorFullName": "Doctor 2",
+      "patientFullName": "User 1",
+      "isRated": true
+    },
+    {
+      "id": "635c",
+      "doctorId": "ce4d",
+      "patientId": "9e63",
+      "time": "23:59",
+      "date": "2024-03-09",
+      "symptoms": "niceeee",
+      "healthProblem": "Breast surgery department",
+      "status": false,
+      "currentDate": "2024-03-19",
+      "doctorFullName": "Doctor 1",
+      "patientFullName": "User 2",
+      "isRated": true
+    },
+    {
+      "id": "80ef",
+      "doctorId": "4111",
+      "patientId": "9e63",
+      "time": "22:00",
+      "date": "2024-03-10",
+      "symptoms": "smoking area - FPT Hoa Lac",
+      "healthProblem": "Ear, nose and throat",
+      "status": false,
+      "currentDate": "2024-03-19",
+      "doctorFullName": "Doctor 2",
+      "patientFullName": "User 2",
+      "isRated": true
+    }
+  ],
+  "rating": [
+    {
+      "patientId": "9e63",
+      "doctorId": "ce4d",
+      "rating": 14,
+      "ratingCount": 2,
+      "bookingId": "635c",
+      "id": "d2b5"
+    },
+    {
+      "patientId": "9e63",
+      "doctorId": "4111",
+      "rating": 14,
+      "ratingCount": 2,
+      "bookingId": "80ef",
+      "id": "8dfd"
+    }
+  ],
+  "medical": [
+    {
+      "id": "5a2a",
+      "medicineName": "1 tình yêu chân thành không lừa dối",
+      "startDate": "2024-03-01",
+      "endDate": "2024-03-09",
+      "usage": "test 1",
+      "notification1": "23:08",
+      "notification2": "23:13",
+      "prescriber": "Doctor 1",
+      "patientId": "075b",
+      "patientFullName": "User 1",
+      "doctorId": "ce4d"
+    },
+    {
+      "id": "6200",
+      "medicineName": "Thuốc trường sinh",
+      "startDate": "2024-03-16",
+      "endDate": "2024-04-21",
+      "usage": "Uống sau ăn cơm 30p. Sáng 1 lần, tối 1 lần. sau 7749 ngày sẽ giác ngộ, trở thành cường giả đứng đầu của đại lục",
+      "notification1": "23:10",
+      "notification2": "23:11",
+      "prescriber": "Doctor 1",
+      "patientId": "9e63",
+      "patientFullName": "User 2",
+      "doctorId": "ce4d"
+    },
+    {
+      "id": "c022",
+      "medicineName": "Rượu thuốc gia truyền",
+      "startDate": "2024-03-15",
+      "endDate": "2024-03-30",
+      "usage": "Chống chỉ định cho trẻ em và người chưa đủ 18 tuổi. Dùng để thoa lên vết bầm, dập chứ không dùng để giải khát.",
+      "notification1": "12:08",
+      "notification2": "17:14",
+      "prescriber": "Doctor 2",
+      "patientId": "075b",
+      "patientFullName": "User 1",
+      "doctorId": "4111"
+    },
+    {
+      "id": "445c",
+      "medicineName": "Paracetamol",
+      "startDate": "2024-03-09",
+      "endDate": "2024-03-30",
+      "usage": "Thuốc trị bách bệnh, uống sau ăn. Ngày 2 lần",
+      "notification1": "00:09",
+      "notification2": "23:11",
+      "prescriber": "Doctor 2",
+      "patientId": "9e63",
+      "patientFullName": "User 2",
+      "doctorId": "4111"
+    }
+  ],
+  "DiseasesHistory": [
+    {
+      "id": "e048",
+      "medicineName": "heart damage",
+      "startDate": "2024-03-19",
+      "describe": "broken up",
+      "status": "Chronic",
+      "patientId": "075b"
+    },
+    {
+      "id": "1b40",
+      "medicineName": "footsore",
+      "startDate": "2024-03-20",
+      "describe": "injury caused by soccer",
+      "status": "Cured",
+      "patientId": "075b"
+    },
+    {
+      "id": "1510",
+      "medicineName": "lack of love",
+      "startDate": "2024-03-15",
+      "describe": "find lover",
+      "status": "Cured",
+      "patientId": "9e63"
+    },
+    {
+      "id": "3a72",
+      "medicineName": "headache",
+      "startDate": "2024-03-29",
+      "describe": "ăn que kem 200k ở hồ gươm xong bị ung thư ví",
+      "status": "Being treated",
+      "patientId": "9e63"
+    }
+  ]
+}
